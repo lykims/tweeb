@@ -1,31 +1,32 @@
 {
-    "name": "tweeb",
-    "version": "1.0.0",
-    "description": "The Twitter bot likes tweets based on hashtags passed as arguments.",
-    "main": "bot.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node bot.js"
-    },
-    "keywords": [
-        "twitter",
-        "bot",
-        "like",
-        "favorite",
-        "hashtags",
-        "nodejs"
-    ],
-    "author": "Kim Sang Ly",
-    "license": "ISC",
-    "dependencies": {
-        "twit": "^2.2.5"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/lykims/tweeb.git"
-    },
-    "bugs": {
-        "url": "https://github.com/lykims/tweeb/issues"
-    },
-    "homepage": "https://github.com/lykims/tweeb#readme",
+  "name": "tweeb",
+  "version": "1.0.0",
+  "description": "The Twitter bot likes tweets based on hashtags passed as arguments.",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
+  },
+  "keywords": [
+    "twitter",
+    "bot",
+    "like",
+    "favorite",
+    "hashtags",
+    "nodejs"
+  ],
+  "author": "Kim Sang Ly",
+  "license": "ISC",
+  "dependencies": {
+    "dateformat": "^2.0.0",
+    "twit": "^2.2.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lykims/tweeb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lykims/tweeb/issues"
+  },
+  "homepage": "https://github.com/lykims/tweeb#readme"
 }
