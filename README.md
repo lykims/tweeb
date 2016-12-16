@@ -1,4 +1,4 @@
-# Twitter Bot built with Node.js
+# Twitter Bot Built with Node.js
 
 The Twitter bot likes tweets based on hashtags.
 
